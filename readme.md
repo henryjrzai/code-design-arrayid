@@ -5,4 +5,4 @@ Berikut link, level pengerjaan dan link hasil dari website yang sudah dibuat.
 
 | No | Challenge Design | Difficulty | Link |
 |----|------------------|------------|------|
-|01. | [Twitter Embed](https://github.com/henryjrzai/code-design-arrayid/tree/master/01.%20Twitter%20Embed)    | Beginner   |[Link](twitter-embed-hjz.netlify.app)|  
+|01. | [Twitter Embed](https://github.com/henryjrzai/code-design-arrayid/tree/master/01.%20Twitter%20Embed)    | Beginner   |[Link](https://twitter-embed-hjz.netlify.app/)|  
