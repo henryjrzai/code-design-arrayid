@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ECF8FF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  max-width: 80%;
+  min-width: 60%;
+  height: max-content;
+  padding: 35px 31px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 15px 60px rgba(29, 161, 242, 0.15);
+  /* display: flex;
+  justify-content: center;
+  align-content: center; */
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile {
+  display: flex;
+}
+
+.profile img {
+  width: 3.125rem;
+  border-radius: 50%;
+  margin-right: 22px;
+}
+
+.profile .user .name a {
+  text-decoration: none;
+  color: #000;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+}
+
+.profile .user .username a{
+  text-decoration: none;
+  color: #000;
+  font-family: 'Source Sans Pro', sans-serif;
+  opacity: 0.5;
+}
+
+.header .logotwit .fa-twitter {
+  color: #1DA1F2;
+  font-size: 1.875rem;
+  margin-left: 20px;
+}
+
+.container .caption {
+  margin: 15px 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container .caption span {
+  color: #1DA1F2;
+}
+
+.footer {
+  font-size: 1rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+  display: flex;
+  justify-content: start;
+
+}
+
+.footer .like {
+  display: flex;
+  align-items: center;
+}
+
+.footer .like svg {
+  width: 16px;
+  fill: red;
+  
+}
+
+.footer .like i {
+  color: red;
+  font-size: 1rem;
+}
+
+.footer .like p {
+  margin: 0 10px 0 10px;
+  opacity: 0.5;
+}
